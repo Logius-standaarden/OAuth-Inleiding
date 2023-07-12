@@ -3,11 +3,11 @@ var respecConfig = {
   useLabel: true,
   license: "cc0",
   specStatus: "WV",
-  specType: "HR",
-  pubDomain: "dk",
-  shortName: "template",
-  publishDate: "2023-01-31",
-  publishVersion: "0.0.1",
+  specType: "ST",
+  pubDomain: "api",
+  shortName: "OAuth Inleiding",
+  publishDate: "2023-06-21",
+  publishVersion: "1.0.0",
   title: "Template",
   // previousPublishVersion: "(none)",
   content: {"ch01": "informative", "ch02": "", "mermaid": ""},
@@ -22,19 +22,19 @@ var respecConfig = {
   authors:
     [
       {
-        name: "Logius Standaarden",
+        name: "Martin van der Plas",
         company: "Logius",
         companyURL: "https://github.com/Logius-standaarden",
       }
     ],
-  github: "https://github.com/Logius-standaarden/ReSpec-template",
+  github: "https://github.com/Logius-standaarden/OAuth-Inleiding",
 
 
   // Create PDF and link to file in header (optional):
   alternateFormats: [
       {
           label: "pdf",
-          uri: "template.pdf",
+          uri: "OAuth-Inleiding.pdf",
       },
   ],
 };
