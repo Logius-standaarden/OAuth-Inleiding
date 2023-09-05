@@ -5,7 +5,7 @@ var respecConfig = {
   specStatus: "WV",
   specType: "ST",
   pubDomain: "api",
-  shortName: "OAuth Inleiding",
+  shortName: "oauth-inleiding",
   publishDate: "2023-06-21",
   publishVersion: "1.0.0",
   title: "Template",
