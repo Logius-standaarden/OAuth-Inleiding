@@ -9,7 +9,7 @@ Deze standaard is voor het ontsluiten van services van publieke/overheidsorganis
 
 ### Schematische weergave van de flow van de standaard
 
-![OAuth-Abstract_Authorization_Code_Flow](./OAuth-Abstract_Authorization_Code_Flow.svg)
+![OAuth-Abstract_Authorization_Code_Flow](./media/OAuth-Abstract_Authorization_Code_Flow.svg)
 
 
 
