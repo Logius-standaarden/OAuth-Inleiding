@@ -33,11 +33,12 @@ Opaque tokens is een type toegangstoken welke geen informatie onthult over de ge
 
 #### Voorbeeld architectuur
 
-Iets verzinnen?
-
 ![Opaque token architecture](./media/opaque_token_gartner.png)
 
-De kern van OAuth is uiteraard het scheiden van de Authorization Server van de Resource Server en deze onafhankelijk te maken van de gebruikte client. Dit blijkt mooi uit bovenstaande flow en voorbeeld. Belangrijkste implicatie voor de architectuur is daarmee dan ook dat voor een dergelijke oplossing waarbij OAuth wordt toegepast de user niet alleen een client en een resource server wordt aangeboden, maar ook een authorization server (drie autonome architectural building blocks). Dit kan een authorization server zijn van de organisatie zelf, zoals in het voorbeeld, maar ook een authorization server van een derde partij zoals in de context al wordt gesuggereerd en zoals je kan zien in het inlogscherm van Spotify waarbij je ook kan registreren met Facebook, Apple of Google. In de context van de Nederlandse overheidsarchitectuur is het dus van belang bij een solution architectuur voor een voorziening goed na te gaan en documenteren welke partijen worden voorzien in de genoemde building blocks. Zie ook het theme IAM en API van de Nora en uiteraard de genoemde standaarden zoals gepubliceerd door Logius en het Forum Standaardisatie.
+Hierboven zien we een voorbeeld architectuur/flow met de nodige building blocks om de werking van opaque tokens aan te duiden. Zoals we al weten gaat het bij OAuth om het scheiden van de Authorization Server van de Resource Server en deze onafhankelijk maken van de gebruikte client. 
+We zien dat de access tokens aan de client kant (tot en met de Mediator/API gateway) als opaque tokens kunnen worden geimplementeerd. De bijbehorende OAuth server moet deze kunnen vertalen naar de bijbehordende JWT's en deze zal via de API gateways worden meegestuurd naar de service, die in dit geval onder een registratie valt. De service kan dan gewoon geimplementeerd worden met JWT's in mind.
+
+_Toevoegen verschil OAuth server aan de registratie kant?_
 
 
 #### Voordelen van Opaque Tokens
