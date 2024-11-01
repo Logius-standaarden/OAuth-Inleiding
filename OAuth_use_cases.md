@@ -1,5 +1,6 @@
 # OAuth - Advanced security
 
+> Concept beschrijving dd 01-11-2024 - door Stas Mironov
 
 ## Inleiding
 
@@ -38,7 +39,7 @@ Opaque tokens is een type toegangstoken welke geen informatie onthult over de ge
 Hierboven zien we een voorbeeld architectuur/flow met de nodige building blocks om de werking van opaque tokens aan te duiden. Zoals we al weten gaat het bij OAuth om het scheiden van de Authorization Server van de Resource Server en deze onafhankelijk maken van de gebruikte client. 
 We zien dat de access tokens aan de client kant (tot en met de Mediator/API gateway) als opaque tokens kunnen worden geimplementeerd. De bijbehorende OAuth server moet deze kunnen vertalen naar de bijbehordende JWT's en deze zal via de API gateways worden meegestuurd naar de service, die in dit geval onder een registratie valt. De service kan dan gewoon geimplementeerd worden met JWT's in mind.
 
-_Toevoegen verschil OAuth server aan de registratie kant?_
+> _Toevoegen verschil OAuth server aan de registratie kant?_
 
 
 #### Voordelen van Opaque Tokens
