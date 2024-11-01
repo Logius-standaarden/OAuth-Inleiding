@@ -41,9 +41,10 @@ De kern van OAuth is uiteraard het scheiden van de Authorization Server van de R
 
 
 #### Voordelen van Opaque Tokens
-- Minder privacygevoelig
+- ##### Minder privacygevoelig
     Omdat opaque tokens geen gebruikers informatie bevatte, is er minder kans op lekkage van gevoelige gegevens. 
-- Gelimiteerde risico's bij diefstal
+
+- ##### Beperkte risico's bij diefstal
     Daarnaast maakt het ook andere geimplementeerde mechanismen aan de server kant veiliger. Denk bijvoorbeeld aan refresh tokens - ook al zou er een token gecompromitteerd zijn, het is dan voor de boosdoener nog steeds niet af te leiden wat voor eigenschappen deze token bezit en daarmee de resources the misbruiken.
 
 
@@ -62,10 +63,6 @@ De kern van OAuth is uiteraard het scheiden van de Authorization Server van de R
 
 ## Referenties
 
-[Coursera basis training met Postman]
-
-https://www.coursera.org/projects/api-testing-a-real-application-via-postman
-
 [Link naar de lijst van verplichte standaarden]
 
 https://forumstandaardisatie.nl/open-standaarden/verplicht
@@ -77,16 +74,6 @@ https://forumstandaardisatie.nl/open-standaarden/verplicht#:~:text=NL%20GOV%20As
 [link naar de logius standaard]
 
 https://publicatie.centrumvoorstandaarden.nl/api/oauth/
-
-[link naar het IAM thema van de NORA]
-
-https://www.noraonline.nl/wiki/Identity_%26_Access_Management_(IAM)
-
-[link naar het API Thema van de NORA]
-
-https://www.noraonline.nl/wiki/API
-
-[Het JWT token kan  men eenvoudig decoden/inspecteren op]
 
 RFC 6749: The OAuth 2.0 Authorization Framework
 OWASP: JSON Web Tokens (JWT) Cheat Sheet
