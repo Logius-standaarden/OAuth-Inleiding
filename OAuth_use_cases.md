@@ -2,8 +2,6 @@
 
 > Concept beschrijving dd 01-11-2024 - door Stas Mironov
 
-## Inleiding
-
 ## Use-cases extra security features
 
 
@@ -29,7 +27,6 @@ Dit is toegevoegd als best practice, op basis van het rapport van Gartner "Archi
 
 In de context van OAuth wil je als client zijnde vaak een resource aanspreken. Als je volledig door de authorisatie komt krijg je een token mee als bewijs van jou toegang tot de resource - deze access token, vaak een jwt (JSON Web Token), heeft inherent (gevoelige) informatie in zich verstopt zonder enige meerwaarde voor de client. Hier komen opaque tokens aan bod.
 
-Opaque token is een type access token that do not reveal any information about the user or the token itself. Unlike JWTs (JSON Web Tokens), which encode information and can be decoded by clients, opaque tokens are essentially random strings that serve as references to information stored on the server.
 Opaque tokens is een type toegangstoken welke geen informatie onthult over de gebruiker of het token zelf. In wezen zijn het willekeurige strings die dienen als referenties naar informatie die op de (OAuth/Open ID provider) server is opgeslagen.
 
 #### Voorbeeld architectuur
@@ -53,7 +50,7 @@ We zien dat de access tokens aan de client kant (tot en met de Mediator/API gate
 #### Implementatie overwegingen
 
 - ##### Token Generatie
-    Bij het genereren van opaque tokens is het cruciaal om een veilige random generators te gebruiken. Hier bestaan al liraries en frameworks voor.
+    Bij het genereren van opaque tokens is het cruciaal om een veilige random generators te gebruiken. Hier bestaan al libraries en frameworks voor.
 
 - ##### Token Opslag
     De server moet een veilige opslag van tokens en hun bijbehorende metadata (bijv. gebruikers-ID, vervaltijd, scopes) bijhouden. Denk aan een database of in-memory opslag, waarbij de toegang goed moet worden beschermd.
