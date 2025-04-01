@@ -19,7 +19,8 @@ dit is geen specificatie of RFC maar een optionele functie
 De nieuwe versie van het OAuth NL profiel voegt onder meer de mogelijkheid voor het gebruik van opaque tokens als optie bij token response, binnen het profiel. Het is belangrijk om te benadrukken dat dit is geen specificatie of RFC is, maar een optionele functie.
 Zie ook v1.1.0-rc.2 op :  https://logius-standaarden.github.io/OAuth-NL-profiel/ 
 
-Dit is toegevoegd als best practice, op basis van het rapport van Gartner "Architect a Modern API Access Control Strategy" ID G00723547, waar het sterk is aangeraden om het externe OAuth access_token token in te wisselen voor een intern access_token. Het externe token kan een JWT token zijn met weinig/geen claims of een opaque token. Aangezien het access_token niet gevalideerd hoort te worden door de client (RP) kan het even goed een opaque token zijn. Gartner raadt gebruik van opaque tokens aan om privacyoverwegingen.
+Dit is toegevoegd als best practice, op basis van de security ontwikkelingen en privacyoverwegingen die wij rondom OAuth zien. Het is immers sterk aangeraden om het externe OAuth access_token token in te wisselen voor een intern access_token. Het externe token kan een JWT token zijn met weinig/geen claims of een opaque token. 
+> Aangezien het access_token niet gevalideerd hoort te worden door de client (RP) kan het even goed een opaque token zijn. 
 
 
 
