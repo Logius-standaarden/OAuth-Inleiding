@@ -6,8 +6,6 @@ Onlangs kregen we de vraag of er meer basisinformatie is over OAuth 2.0. Een hee
 
 Een deel van het antwoord zit m al in de formele naamgeving van de standaard. Het betreft namelijk een profiel ofwel een vastgestelde configuratie flow voor de Nederlandse overheden op de formele OAuth 2.0 standaard.
 
-
-
 ## Context
 
 OAuth 2.0 is een authorizatieframework wat het mogelijk maakt om gecontroleerde toegang te krijgen tot gebruikersaccounts op een HTTP service zoals bijvoorbeeld Google, Facebook, Spotify etc. De standaard werkt op basis van het delegeren van de user authentication aan de service die het user account host en door applicaties van derden te autoriseren om het user account te hergebruiken. Hierdoor kunnen gebruikersrechten of -gegevens met een website of applicatie gedeeld worden zonder wachtwoorden te delen.
@@ -46,10 +44,6 @@ Zowel de webclient van Spotify als de client applicatie of app gebruiken dezelfd
 
 De kern van OAuth is uiteraard het scheiden van de Authorization Server van de Resource Server en deze onafhankelijk te maken van de gebruikte client. Dit blijkt mooi uit bovenstaande flow en voorbeeld. Belangrijkste implicatie voor de architectuur is daarmee dan ook dat voor een dergelijke oplossing waarbij OAuth wordt toegepast de user niet alleen een client en een resource server wordt aangeboden, maar ook een authorization server (drie autonome architectural building blocks). Dit kan een authorization server zijn van de organisatie zelf, zoals in het voorbeeld, maar ook een authorization server van een derde partij zoals in de context al wordt gesuggereerd en zoals je kan zien in het inlogscherm van Spotify waarbij je ook kan registreren met Facebook, Apple of Google. In de context van de Nederlandse overheidsarchitectuur is het dus van belang bij een solution architectuur voor een voorziening goed na te gaan en documenteren welke partijen worden voorzien in de genoemde building blocks. Zie ook het theme IAM en API van de Nora en uiteraard de genoemde standaarden zoals gepubliceerd door Logius en het Forum Standaardisatie.
 
-
-
-
-
 ## Referenties
 
 [Coursera basis training met Postman]
@@ -66,7 +60,7 @@ https://forumstandaardisatie.nl/open-standaarden/verplicht#:~:text=NL%20GOV%20As
 
 [link naar de logius standaard]
 
-https://publicatie.centrumvoorstandaarden.nl/api/oauth/
+https://gitdocumentatie.logius.nl/publicatie/api/oauth/
 
 [link naar het IAM thema van de NORA]
 

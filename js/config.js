@@ -1,16 +1,14 @@
 var respecConfig = {
   useLogo: true,
   useLabel: true,
-  license: "cc0",
+  // license: "cc0",
   specStatus: "WV",
-  specType: "ST",
+  specType: "PR",
   pubDomain: "api",
   shortName: "oauth-inleiding",
-  publishDate: "2023-06-21",
-  publishVersion: "1.0.0",
-  title: "Template",
+  publishDate: "2024-11-16",
+  publishVersion: "0.1.0",
   // previousPublishVersion: "(none)",
-  content: {"ch01": "informative", "ch02": "", "mermaid": ""},
   editors:
     [
       {
