@@ -8,9 +8,7 @@ var respecConfig = {
   shortName: "oauth-inleiding",
   publishDate: "2024-11-16",
   publishVersion: "0.1.0",
-  title: "Algemene Inleiding Open Authenticatie (OAuth)",
   // previousPublishVersion: "(none)",
-  // content: {"ch01": "informative", "ch02": "", "mermaid": ""},
   editors:
     [
       {
