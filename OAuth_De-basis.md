@@ -60,7 +60,7 @@ https://forumstandaardisatie.nl/open-standaarden/verplicht#:~:text=NL%20GOV%20As
 
 [link naar de logius standaard]
 
-https://publicatie.centrumvoorstandaarden.nl/api/oauth/
+https://gitdocumentatie.logius.nl/publicatie/api/oauth/
 
 [link naar het IAM thema van de NORA]
 
