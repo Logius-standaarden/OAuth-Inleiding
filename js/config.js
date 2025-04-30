@@ -14,7 +14,7 @@ var respecConfig = {
       {
         name: "Logius Standaarden",
         company: "Logius",
-        companyURL: "https://github.com/Logius-standaarden",
+        companyURL: "https://logius.nl",
       }
     ],
   authors:
@@ -22,7 +22,7 @@ var respecConfig = {
       {
         name: "Martin van der Plas",
         company: "Logius",
-        companyURL: "https://github.com/Logius-standaarden",
+        companyURL: "https://logius.nl",
       }
     ],
   github: "https://github.com/Logius-standaarden/OAuth-Inleiding",
