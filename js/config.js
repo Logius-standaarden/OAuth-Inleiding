@@ -8,7 +8,7 @@ var respecConfig = {
   shortName: "oauth-inleiding",
   publishDate: "2024-11-16",
   publishVersion: "0.1.0",
-  // previousPublishVersion: "(none)",
+  previousPublishVersion: [],
   editors:
     [
       {
