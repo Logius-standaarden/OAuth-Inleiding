@@ -1,4 +1,6 @@
-var respecConfig = {
+import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
+
+loadRespecWithConfiguration({
   useLogo: true,
   useLabel: true,
   // license: "cc0",
@@ -35,4 +37,4 @@ var respecConfig = {
           uri: "OAuth-Inleiding.pdf",
       },
   ],
-};
+});
