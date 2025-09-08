@@ -3,14 +3,13 @@ import { loadRespecWithConfiguration } from "https://logius-standaarden.github.i
 loadRespecWithConfiguration({
   useLogo: true,
   useLabel: true,
-  // license: "cc0",
   specStatus: "WV",
   specType: "PR",
   pubDomain: "api",
   shortName: "oauth-inleiding",
   publishDate: "2024-11-16",
   publishVersion: "0.1.0",
-  // previousPublishVersion: "(none)",
+  prevVersion: [],
   editors:
     [
       {
@@ -28,13 +27,4 @@ loadRespecWithConfiguration({
       }
     ],
   github: "https://github.com/Logius-standaarden/OAuth-Inleiding",
-
-
-  // Create PDF and link to file in header (optional):
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "OAuth-Inleiding.pdf",
-      },
-  ],
 });
