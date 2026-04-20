@@ -13,9 +13,9 @@ loadRespecWithConfiguration({
   editors:
     [
       {
-        name: "Logius Standaarden",
+        name: "Stas Mironov",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
       }
     ],
   authors:
@@ -23,7 +23,7 @@ loadRespecWithConfiguration({
       {
         name: "Martin van der Plas",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
       }
     ],
   github: "https://github.com/Logius-standaarden/OAuth-Inleiding",
