@@ -13,7 +13,7 @@ loadRespecWithConfiguration({
   editors:
     [
       {
-        name: "Martin van der Plas",
+        name: "Stas Mironov",
         company: "Logius",
         companyURL: "https://www.logius.nl",
       }
