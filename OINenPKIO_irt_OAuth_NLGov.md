@@ -4,7 +4,7 @@
 
 ## Inleiding
 
-De nieuwe versie van het OAuth NL profiel voegt onder meer het Client credentials profiel toe. 
+De nieuwe versie van het NLgov-profiel voegt onder meer het Client credentials profiel toe. 
 Zie ook v1.1.0-rc.2 op :  https://logius-standaarden.github.io/OAuth-NL-profiel/ 
 
 Op basis van deze toevoeging kwamen, na vaststelling door de werkgroep en de publieke consultatie, aanvullende vragen over het gebruik van PKIO certificaten en het OIN vanuit het onderwijs domein. De Edukoppeling werkgroep gebruikt voor het definiëren van een aantal OAuth best practices[1] ook het NLgov Assurance profile for OAuth 2.0.
