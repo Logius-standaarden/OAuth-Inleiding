@@ -1,4 +1,4 @@
-# OAuth - Samenvatting van de OAuth-NL standaard
+# OAuth - Samenvatting van het NLgov Assurance profile for OAuth 2.0
 
 > link naar de standaard: https://gitdocumentatie.logius.nl/publicatie/api/oauth/v1.0
 > Versie 1.0 vastgesteld op 09 juli 2020
